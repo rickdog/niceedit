@@ -1969,7 +1969,7 @@ C.onerror = this.onError.closure(this);
 C.upload.onprogress = function (D) {
   this.setProgress(D.loaded / D.total)
 }.closure(this);
-C.setRequestHeader('Authorization', 'Client-ID 7c86eae37339975'); /* c37fc05199a05b7 */
+C.setRequestHeader('Authorization', 'Client-ID 3e0c46b30287ec1'); /* 7c86eae37339975, c37fc05199a05b7 */
 C.send(A)
 },
 setProgress: function (A) {
